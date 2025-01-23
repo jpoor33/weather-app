@@ -43,10 +43,10 @@ const fetchWeather = async (cityName: string) => {
     body: JSON.stringify({ cityName }),
   });
 
-  const weatherData = await response.json();
+  const {weatherData, city} = await response.json();
 
   console.log('weatherData: ', weatherData);
-
+  console.log(city);
   renderCurrentWeather(weatherData[0]);
   renderForecast(weatherData.slice(1));
 };

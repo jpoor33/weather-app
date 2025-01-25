@@ -5,6 +5,8 @@ An app to check your local weather using live data.
 ## Installation
 
 Use node to instal and run
+
+Add your credentials to a .env file at the Develop folder level
 ```bash
 npm i && npm run start:dev
 ```

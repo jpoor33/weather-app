@@ -10,6 +10,12 @@ Add your credentials to a .env file at the Develop folder level
 ```bash
 npm i && npm run start:dev
 ```
+```
+Create a `.env` file in the root directory with the following format:
+API_BASE_URL=https://api.openweathermap.org
+API_TOKEN=<your-api-token>
+
+```
 
 ## Contributing
 
